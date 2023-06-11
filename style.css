@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(./Roboto-Light.ttf);
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #242933;
+    font-family: 'roboto';
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 40%;
+    border-radius: 0.4rem;
+    border: 0.1rem solid #7a87a1;
+    background-color: #2e3744 ;
+
+}
+
+.miFormulario{
+    width: 80%;
+    align-self: center;
+}
+
+.miBtn{
+    color: white;
+    background-color: #6b64fe;
+    height: 2rem;
+    border: none;
+}
+
+label{
+    color: #95a4c7;
+}
+
+input{
+    width: 100%;
+    height: 1.5rem;
+}
+div{
+    margin-bottom: 1.3rem;
+}
+
+h1{
+    color: #95a4c7;
+}
+
+
+
+
+    
